@@ -8,13 +8,13 @@
 #!loon_version = 3.3.3(894)
 #!homepage = https://github.com/sooyaaabo/Loon/blob/main/README.md
 #!icon = https://raw.githubusercontent.com/sooyaaabo/Loon/main/Icon/App-Icon/BodianMusic.png
-#!date = 2025-09-09 22:00
+#!date = 2025-09-12 12:00
 
 # 2025-08-31 03:36:08
 # https://kelee.one/Tool/Loon/Lpx/BodianMusic_remove_ads.lpx
 # 2025-08-31 00:00
 # https://raw.githubusercontent.com/mist-whisper/Loon/master/Lpx/BodianMusic.lpx
-# 2025-09-96
+# 2025-09-12
 # https://raw.githubusercontent.com/WeiGiegie/666/main/bdyy.js
 
 [Rewrite]
@@ -76,7 +76,7 @@
 ^https:\/\/bd-api\.kuwo\.cn\/api\/voice\/room\/v2\/sidebar response-body-json-jq '(.data) = {}'
 
 [Script]
-http-response ^https?:\/\/(bd-api\.kuwo\.cn\/api\/(ucenter\/users\/(pub|login)|play\/music\/v2\/(audioUrl|checkRight)|service\/(home\/module|music\/download\/info|global/config\/scene)|pay\/vip\/lowPriceText)|us\.l\.qq\.com\/exapp\?adposcount) script-path = https://raw.githubusercontent.com/WeiGiegie/666/main/bdyy.js, requires-body = true, timeout = 60, tag = [波点音乐]解锁会员
+http-response ^https?:\/\/(bd-api\.kuwo\.cn\/api\/(ucenter\/users\/(pub|login)|play\/(advert\/info|music\/v2\/(audioUrl|checkRight))|service\/(home\/module|music\/download\/info|global\/config\/(scene|vipEnter))|pay\/(vip\/(lowPriceText|invitation\/assist\/popup)|sp\/actVip))|us\.l\.qq\.com\/exapp\?adposcount) script-path = https://raw.githubusercontent.com/WeiGiegie/666/main/bdyy.js, requires-body = true, timeout = 60, tag = [波点音乐]解锁会员
 
 [MitM]
-hostname = bd-api.kuwo.cn, *.kuwo.*, ad.tencentmusic.com
+hostname = 39.156.123.46, 39.156.123.46:443, 39.156.12*.*:443, *.kuwo.*, *.l.qq.com, ab-bodian.kuwo.cn, ad.tencentmusic.com, bd-api.kuwo.cn, bd-api.kuwo.com, bodianimgcdn.kuwo.cn, h5app.kuwo.cn
