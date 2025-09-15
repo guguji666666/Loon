@@ -8,7 +8,7 @@
 #!loon_version = 3.3.3(894)
 #!homepage = https://github.com/sooyaaabo/Loon/blob/main/README.md
 #!icon = https://raw.githubusercontent.com/sooyaaabo/Loon/main/Icon/App-Icon/BodianMusic.png
-#!date = 2025-09-15 17:30
+#!date = 2025-09-15 18:30
 
 # 2025-08-31 03:36:08
 # https://kelee.one/Tool/Loon/Lpx/BodianMusic_remove_ads.lpx
@@ -21,6 +21,7 @@
 # 开屏广告
 ^https:\/\/ad\.tencentmusic\.com/config/uni reject-dict
 ^https:\/\/bd-api\.kuwo\.cn\/api\/(play|service|advert)\/advert\/ reject-dict
+^https?:\/\/h5s\.kuwo\.cn\/m\/bd_launch_popup\/index reject
 
 # 全局应用配置
 ^https:\/\/bd-api\.kuwo\.cn\/api\/service\/conf\/all\? response-body-json-del data.groupSign.adStartAppDialog data.groupSign.adGuideTest data.groupSign.playTips data.groupSign.adExitChange data.conf.adGuidePopCount data.conf.adDownListOpen
@@ -76,7 +77,7 @@
 ^https:\/\/bd-api\.kuwo\.cn\/api\/voice\/room\/v2\/sidebar response-body-json-jq '(.data) = {}'
 
 [Script]
-http-response ^https?:\/\/(bd-api\.kuwo\.cn\/api\/(ucenter\/users\/(pub|login)|play\/music\/v2\/(audioUrl|checkRight)|service\/(home\/module|music\/download\/(info|config))|advert\/(config|free\/config)|pay\/(vip\/invitation\/swell|audition\/url|sp\/actVip))|us\.l\.qq\.com\/exapp\?adposcount) script-path = https://raw.githubusercontent.com/WeiGiegie/666/main/bdyy.js, requires-body = true, timeout = 60, tag = [波点音乐]解锁会员
+http-response ^https?:\/\/(bd-api\.kuwo\.cn\/api\/(ucenter\/users\/(pub|login)|play\/(advert\/info|music\/v2\/(audioUrl|checkRight))|service\/(home\/module|music\/download\/(info|config)|global\/config\/(scene|vipEnter)|banner\/positions)|advert\/(config|free\/config)|search\/topic\/word\/list|pay\/(vip\/(lowPriceText|invitation\/(assist\/popup|swell))|audition\/url|sp\/actVip))|us\.l\.qq\.com\/exapp\?adposcount) script-path = https://raw.githubusercontent.com/WeiGiegie/666/main/bdyy.js, requires-body = true, timeout = 60, tag = [波点音乐]解锁会员
 
 [MitM]
 hostname = 111.30.171.170:443, 39.156.12*.*:443, 39.156.121.20:443, 39.156.121.21:443, 39.156.123.46, 39.156.123.46:443, ab-bodian.kuwo.cn, ad.tencentmusic.com, bd-api.kuwo.cn, bd-api.kuwo.com, bodianimgcdn.kuwo.cn, h5app.kuwo.cn, h5s.kuwo.cn, *.kuwo.*, *.l.qq.com
