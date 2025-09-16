@@ -8,9 +8,9 @@
 #!loon_version = 3.3.3(894)
 #!homepage = https://github.com/sooyaaabo/Loon/blob/main/README.md
 #!icon = https://raw.githubusercontent.com/sooyaaabo/Loon/main/Icon/App-Icon/Kwai.png
-#!date = 2025-09-09 22:00
+#!date = 2025-09-16 09:00
 
-# 2025-09-06 00:53:21
+# 2025-09-16 03:17:43
 # https://kelee.one/Tool/Loon/Lpx/KuaiShou_remove_ads.lpx
 
 [Rewrite]
@@ -32,7 +32,7 @@
 ^https:\/\/(apissl|az\d-api(-js|-idc)?)\.(gifshow|ksapisrv)\.com\/rest\/n\/ad\/ reject-dict
 
 # 视频流广告
-^https:\/\/(apissl|az\d-api(-js|-idc)?)\.(gifshow|ksapisrv)\.com\/rest\/n\/feed\/selectionFast\? response-body-json-jq 'if (.feeds | type) == "array" then .feeds |= map(select(.ad | not)) else . end'
+^https:\/\/(apissl|az\d-api(-js|-idc)?)\.(gifshow|ksapisrv)\.com\/rest\/n\/feed\/(selection|selectionFast)\? response-body-json-jq 'if (.feeds | type) == "array" then .feeds |= map(select(.ad | not)) else . end'
 
 # 我的页面 - 精选模板推荐
 ^https:\/\/(apissl|az\d-api(-js|-idc)?)\.(gifshow|ksapisrv)\.com\/rest\/n\/user\/profile\/v2\? response-body-json-del postRecommends
