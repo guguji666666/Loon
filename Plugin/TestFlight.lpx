@@ -1,5 +1,5 @@
 #!name = TestFlight
-#!desc = 解除TestFlight区域限制，以解决安装或更新TestFlight内App时, 提示“APP不可用”问题。
+#!desc = 解除TestFlight区域限制，以解决安装或更新TestFlight内App时, 提示“APP不可用”问题。\niOS/iPadOS/tvOS 26已禁止TestFlight MitM，请禁用此插件。
 #!openUrl = https://apps.apple.com/app/id899247664
 #!author = NobyDa[https://github.com/NobyDa], 可莉🅥[https://github.com/luestr/ProxyResource/blob/main/README.md]
 #!tag = 功能增强
