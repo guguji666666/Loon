@@ -1,7 +1,9 @@
 # 2025-09-10 20:00:17
 # https://raw.githubusercontent.com/fmz200/wool_scripts/main/Loon/rule/rejectAd.list
 
+
 # >>>>>>>>>>>>>>> ✅ 0 ✅ <<<<<<<<<<<<<<
+
 
 
 # >>>>>>>>>>>>>>> ✅ 1 ✅ <<<<<<<<<<<<<<
@@ -35,6 +37,7 @@ DOMAIN-SUFFIX, afp.m1905.com
 DOMAIN-SUFFIX, counter.m1905.com
 
 
+
 # >>>>>>>>>>>>>>> ✅ 2 ✅ <<<<<<<<<<<<<<
 # 2345网址导航
 DOMAIN-SUFFIX, dl.2345.com
@@ -48,6 +51,7 @@ DOMAIN-SUFFIX, zhushou.2345.com
 DOMAIN-SUFFIX, tg.jifen.2345.com
 DOMAIN-SUFFIX, update.minipage.2345.com
 DOMAIN-SUFFIX, g.wan.2345.com
+
 
 
 # >>>>>>>>>>>>>>> ✅ 3 ✅ <<<<<<<<<<<<<<
@@ -100,7 +104,9 @@ DOMAIN-SUFFIX, dpvc.39.net
 DOMAIN-SUFFIX, thetestpage.39.net 
 
 
+
 # >>>>>>>>>>>>>>> ✅ 4 ✅ <<<<<<<<<<<<<<
+
 
 
 # >>>>>>>>>>>>>>> ✅ 5 ✅ <<<<<<<<<<<<<<
@@ -133,16 +139,21 @@ DOMAIN-SUFFIX, 58.xgo.com.cn
 DOMAIN-SUFFIX, imp.xgo.com.cn
 
 
+
 # >>>>>>>>>>>>>>> ✅ 6 ✅ <<<<<<<<<<<<<<
+
 
 
 # >>>>>>>>>>>>>>> ✅ 7 ✅ <<<<<<<<<<<<<<
 
 
+
 # >>>>>>>>>>>>>>> ✅ 8 ✅ <<<<<<<<<<<<<<
 
 
+
 # >>>>>>>>>>>>>>> ✅ 9 ✅ <<<<<<<<<<<<<<
+
 
 
 # >>>>>>>>>>>>>>> ✅ A ✅ <<<<<<<<<<<<<<
@@ -167,7 +178,7 @@ DOMAIN-SUFFIX, na1r.services.adobe.com
 DOMAIN-SUFFIX, hlrcv.stage.adobe.com 
 DOMAIN-SUFFIX, activate.wip3.adobe.com 
 DOMAIN-SUFFIX, ereg.wip3.adobe.com 
-DOMAIN-SUFFIX, lmlicenses.wip4.adobe.com
+DOMAIN-SUFFIX, lmlicenses.wip4.adobe.com 
 # Marketo
 DOMAIN-SUFFIX, marketo.com
 DOMAIN-SUFFIX, asia.marketo.com
@@ -311,48 +322,6 @@ DOMAIN-SUFFIX, api.open.uc.cn
 DOMAIN-SUFFIX, puds.test.uae.uc.cn
 DOMAIN-SUFFIX, picture.duokan.com
 DOMAIN-SUFFIX, v2.fm.n.duokanbox.com
-DOMAIN-SUFFIX, actives.youku.com
-DOMAIN-SUFFIX, dmapp.youku.com
-DOMAIN-SUFFIX, hz.youku.com
-DOMAIN-SUFFIX, lstat.youku.com
-DOMAIN-SUFFIX, mobilemsg.youku.com
-DOMAIN-SUFFIX, msg.youku.com
-DOMAIN-SUFFIX, myes.youku.com
-DOMAIN-SUFFIX, passport-log.youku.com
-DOMAIN-SUFFIX, stat.youku.com
-DOMAIN-SUFFIX, tdrec.youku.com
-DOMAIN-SUFFIX, wan.youku.com
-DOMAIN-SUFFIX, ykatr.youku.com
-DOMAIN-SUFFIX, ykrec.youku.com
-DOMAIN-SUFFIX, ad.api.3g.youku.com
-DOMAIN-SUFFIX, a-dxk.play.api.3g.youku.com
-DOMAIN-SUFFIX, store.tv.api.3g.youku.com
-DOMAIN-SUFFIX, store.xl.api.3g.youku.com
-DOMAIN-SUFFIX, das.api.youku.com
-DOMAIN-SUFFIX, val.api.youku.com
-DOMAIN-SUFFIX, ipm.atm.youku.com
-DOMAIN-SUFFIX, service.danmu.youku.com
-DOMAIN-SUFFIX, dl.g.youku.com
-DOMAIN-SUFFIX, p.l.youku.com
-DOMAIN-SUFFIX, r.l.youku.com
-DOMAIN-SUFFIX, v.l.youku.com
-DOMAIN-SUFFIX, urchin.lstat.youku.com
-DOMAIN-SUFFIX, dev-push.m.youku.com
-DOMAIN-SUFFIX, push.m.youku.com
-DOMAIN-SUFFIX, sdk.m.youku.com
-DOMAIN-SUFFIX, ad.mobile.youku.com
-DOMAIN-SUFFIX, das.mobile.youku.com
-DOMAIN-SUFFIX, gamex.mobile.youku.com
-DOMAIN-SUFFIX, ad.api.mobile.youku.com
-DOMAIN-SUFFIX, sdk.api.gamex.mobile.youku.com
-DOMAIN-SUFFIX, test.ott.youku.com
-DOMAIN-SUFFIX, s.p.youku.com
-DOMAIN-SUFFIX, hudong.pl.youku.com
-DOMAIN-SUFFIX, huodong.pl.youku.com
-DOMAIN-SUFFIX, b.smartvideo.youku.com
-DOMAIN-SUFFIX, huodong.vip.youku.com
-DOMAIN-SUFFIX, c.yes.youku.com
-DOMAIN-SUFFIX, m.yes.youku.com
 DOMAIN-SUFFIX, app-monitor.ele.me
 DOMAIN-SUFFIX, client-api.ele.me
 DOMAIN-SUFFIX, grand.ele.me
@@ -408,6 +377,7 @@ IP-CIDR, 101.227.97.240/32, no-resolve
 IP-CIDR, 101.227.200.11/32, no-resolve
 IP-CIDR, 101.227.200.28/32, no-resolve
 IP-CIDR, 124.192.153.42/32, no-resolve
+
 
 
 # >>>>>>>>>>>>>>> ✅ B ✅ <<<<<<<<<<<<<<
@@ -683,6 +653,7 @@ DOMAIN-SUFFIX, ad.pantum.com
 DOMAIN-SUFFIX, ad.bh3.com
 
 
+
 # >>>>>>>>>>>>>>> ✅ C ✅ <<<<<<<<<<<<<<
 # 财新网
 DOMAIN-SUFFIX, apollo.caixin.com
@@ -735,6 +706,7 @@ DOMAIN, data-hoisin.coocaa.com
 DOMAIN-SUFFIX, atrace.chelaile.net.cn
 DOMAIN, logs.chelaile.net.cn
 DOMAIN, ad.chelaile.net.cn
+
 
 
 # >>>>>>>>>>>>>>> ✅ D ✅ <<<<<<<<<<<<<<
@@ -812,6 +784,7 @@ DOMAIN-SUFFIX, ad.pchome.com.tw
 DOMAIN-SUFFIX, adcl.pchome.com.tw
 
 
+
 # >>>>>>>>>>>>>>> ✅ E ✅ <<<<<<<<<<<<<<
 # 饿了么
 DOMAIN-SUFFIX, app-monitor.ele.me
@@ -819,6 +792,7 @@ DOMAIN-SUFFIX, client-api.ele.me
 DOMAIN-SUFFIX, grand.ele.me
 DOMAIN-SUFFIX, mobile-pubt.ele.me
 DOMAIN-SUFFIX, newton-api.ele.me
+
 
 
 # >>>>>>>>>>>>>>> ✅ F ✅ <<<<<<<<<<<<<<
@@ -896,6 +870,7 @@ DOMAIN-SUFFIX, countubn.light.soufun.com
 DOMAIN, adv-adlog.variflight.com
 DOMAIN, adv-ads.variflight.com
 DOMAIN, app-ad.variflight.com
+
 
 
 # >>>>>>>>>>>>>>> ✅ G ✅ <<<<<<<<<<<<<<
@@ -1023,6 +998,7 @@ DOMAIN-SUFFIX, sso-cas.gridsumdissector.com
 DOMAIN-SUFFIX, g.gridsum.com
 
 
+
 # >>>>>>>>>>>>>>> ✅ H ✅ <<<<<<<<<<<<<<
 # Hao123
 # hao123上网导航
@@ -1117,7 +1093,9 @@ DOMAIN-SUFFIX, huishenghuiying.com
 DOMAIN-SUFFIX, xia.huishenghuiying.com
 
 
+
 # >>>>>>>>>>>>>>> ✅ I ✅ <<<<<<<<<<<<<<
+
 
 
 # >>>>>>>>>>>>>>> ✅ J ✅ <<<<<<<<<<<<<<
@@ -1232,6 +1210,7 @@ DOMAIN-SUFFIX, ad.cninfo.com.cn
 
 # 九游
 DOMAIN-SUFFIX, ad.9game.cn
+
 
 
 # >>>>>>>>>>>>>>> ✅ K ✅ <<<<<<<<<<<<<<
@@ -1359,6 +1338,7 @@ DOMAIN-SUFFIX, ad.kuwo.cn
 # 广告联盟已包含
 
 
+
 # >>>>>>>>>>>>>>> ✅ L ✅ <<<<<<<<<<<<<<
 # 乐居
 DOMAIN-SUFFIX, adm.leju.com
@@ -1436,6 +1416,7 @@ DOMAIN-SUFFIX, guang.lesports.com
 DOMAIN-SUFFIX, ad.hpplay.cn
 DOMAIN-SUFFIX, adeng.hpplay.cn
 DOMAIN-SUFFIX, rp.hpplay.cn
+
 
 
 # >>>>>>>>>>>>>>> ✅ M ✅ <<<<<<<<<<<<<<
@@ -1629,6 +1610,7 @@ DOMAIN-SUFFIX, y.da.mgtv.com
 DOMAIN-SUFFIX, da.mgtv.com
 
 
+
 # >>>>>>>>>>>>>>> ✅ N ✅ <<<<<<<<<<<<<<
 # Naver
 DOMAIN-SUFFIX, ad.naver.com
@@ -1640,6 +1622,7 @@ DOMAIN-SUFFIX, adimg3.search.naver.net
 DOMAIN-SUFFIX, newrelic.com
 DOMAIN-SUFFIX, js-agent.newrelic.com
 DOMAIN-SUFFIX, bam.nr-data.net
+
 
 
 # >>>>>>>>>>>>>>> ✅ O ✅ <<<<<<<<<<<<<<
@@ -1676,6 +1659,7 @@ DOMAIN-SUFFIX, ads.oppomobile.com
 DOMAIN, acdn.adnxs.com
 DOMAIN, mediation.adnxs.com
 DOMAIN, sin3-ib.adnxs.com
+
 
 
 # >>>>>>>>>>>>>>> ✅ P ✅ <<<<<<<<<<<<<<
@@ -1715,6 +1699,7 @@ DOMAIN, adpai.thepaper.cn
 DOMAIN, imgadpai.thepaper.cn
 DOMAIN-SUFFIX, ad.thepaper.cn
 DOMAIN-SUFFIX, imgad.thepaper.cn
+
 
 
 # >>>>>>>>>>>>>>> ✅ Q ✅ <<<<<<<<<<<<<<
@@ -1806,6 +1791,7 @@ DOMAIN-SUFFIX, g3.iqilu.com
 DOMAIN-SUFFIX, g4.iqilu.com
 
 
+
 # >>>>>>>>>>>>>>> ✅ R ✅ <<<<<<<<<<<<<<
 # 人人视频
 DOMAIN-SUFFIX, ad.rr.tv
@@ -1819,6 +1805,7 @@ DOMAIN-SUFFIX, xray.jebe.renren.com
 # 人民网
 DOMAIN-SUFFIX, pmm.people.com.cn
 DOMAIN-SUFFIX, a1.peoplecdn.cn
+
 
 
 # >>>>>>>>>>>>>>> ✅ S ✅ <<<<<<<<<<<<<<
@@ -2002,6 +1989,7 @@ DOMAIN-SUFFIX, ad.jiayuan.com
 
 # 书旗小说
 DOMAIN-SUFFIX, ut2.shuqistat.com
+
 
 
 # >>>>>>>>>>>>>>> ✅ T ✅ <<<<<<<<<<<<<<
@@ -2201,6 +2189,7 @@ DOMAIN-SUFFIX, cpm.cm.kankan.com
 DOMAIN-SUFFIX, count.cpm.cm.kankan.com
 
 
+
 # >>>>>>>>>>>>>>> ✅ U ✅ <<<<<<<<<<<<<<
 # Urban Airship
 DOMAIN-SUFFIX, urbanairship.com
@@ -2338,6 +2327,7 @@ DOMAIN-SUFFIX, slot.union.ucweb.com
 DOMAIN-SUFFIX, config.unityads.unity3d.com
 
 
+
 # >>>>>>>>>>>>>>> ✅ V ✅ <<<<<<<<<<<<<<
 # Vivo
 DOMAIN, adlog.vivo.com.cn
@@ -2352,6 +2342,7 @@ DOMAIN-KEYWORD, stsdk.vivoglobal.com
 
 # VIVO商城
 DOMAIN-KEYWORD, paradisestatic.vivo.com.cn
+
 
 
 # >>>>>>>>>>>>>>> ✅ W ✅ <<<<<<<<<<<<<<
@@ -2515,6 +2506,7 @@ DOMAIN-SUFFIX, ms.vipstatic.com
 # 去开屏 
 DOMAIN-SUFFIX, ad.gameley.com
 DOMAIN-SUFFIX, zlsdk.1rtb.net
+
 
 
 # >>>>>>>>>>>>>>> ✅ X ✅ <<<<<<<<<<<<<<
@@ -2761,6 +2753,7 @@ DOMAIN-SUFFIX, ad.xueqiu.com
 # DOMAIN-KEYWORD, xqimg.imedao.com
 
 
+
 # >>>>>>>>>>>>>>> ✅ Y ✅ <<<<<<<<<<<<<<
 # Yahoo
 DOMAIN-SUFFIX, adss.yahoo.com
@@ -2886,14 +2879,13 @@ DOMAIN, apiv4-iyes.youku.com
 DOMAIN, httpdns.alicdn.com
 DOMAIN, iyes.youku.com
 DOMAIN, mc.atm.youku.com
-DOMAIN, pl.cp31.ott.cibntv.net
-DOMAIN, m-vali.cp31.ott.cibntv.net
-DOMAIN, vali-g1.cp31.ott.cibntv.net
-DOMAIN, vali-ugc.cp31.ott.cibntv.net
+# DOMAIN, pl.cp31.ott.cibntv.net
+# DOMAIN, m-vali.cp31.ott.cibntv.net
+# DOMAIN, vali-g1.cp31.ott.cibntv.net
+# DOMAIN, vali-ugc.cp31.ott.cibntv.net
 DOMAIN, yk-ssp.ad.youku.com
 DOMAIN, ykad-data.youku.com
 DOMAIN, ad.mobile.youku.com
-DOMAIN-SUFFIX, atm.youku.com
 DOMAIN-SUFFIX, actives.youku.com
 DOMAIN-SUFFIX, ad.api.3g.tudou.com
 DOMAIN-SUFFIX, ad.api.3g.youku.com
@@ -2916,14 +2908,14 @@ DOMAIN-SUFFIX, hz.youku.com
 DOMAIN-SUFFIX, l.ykimg.com
 DOMAIN-SUFFIX, lstat.youku.com
 DOMAIN-SUFFIX, m.yes.youku.com
-DOMAIN-SUFFIX, mobilemsg.youku.com
+DOMAIN-SUFFIX , mobilemsg.youku.com
 DOMAIN-SUFFIX, msg.youku.com
 DOMAIN-SUFFIX, myes.youku.com
 DOMAIN-SUFFIX, p.l.youku.com
+DOMAIN-SUFFIX, r.l.youku.com
 DOMAIN-SUFFIX, passport-log.youku.com
 DOMAIN-SUFFIX, p-log.ykimg.com
 DOMAIN-SUFFIX, push.m.youku.com
-DOMAIN-SUFFIX, r.l.youku.com
 DOMAIN-SUFFIX, s.p.youku.com
 DOMAIN-SUFFIX, sdk.api.gamex.mobile.youku.com
 DOMAIN-SUFFIX, sdk.m.youku.com
@@ -2936,50 +2928,6 @@ DOMAIN-SUFFIX, val.api.youku.com
 DOMAIN-SUFFIX, wan.youku.com
 DOMAIN-SUFFIX, ykatr.youku.com
 DOMAIN-SUFFIX, ykrec.youku.com
-DOMAIN-SUFFIX, actives.youku.com
-DOMAIN-SUFFIX, dmapp.youku.com
-DOMAIN-SUFFIX, hz.youku.com
-DOMAIN-SUFFIX, lstat.youku.com
-DOMAIN-SUFFIX, mobilemsg.youku.com
-DOMAIN-SUFFIX, msg.youku.com
-DOMAIN-SUFFIX, myes.youku.com
-DOMAIN-SUFFIX, passport-log.youku.com
-DOMAIN-SUFFIX, stat.youku.com
-DOMAIN-SUFFIX, tdrec.youku.com
-DOMAIN-SUFFIX, wan.youku.com
-DOMAIN-SUFFIX, ykatr.youku.com
-DOMAIN-SUFFIX, ykrec.youku.com
-DOMAIN-SUFFIX, ad.api.3g.youku.com
-DOMAIN-SUFFIX, a-dxk.play.api.3g.youku.com
-DOMAIN-SUFFIX, store.tv.api.3g.youku.com
-DOMAIN-SUFFIX, store.xl.api.3g.youku.com
-DOMAIN-SUFFIX, das.api.youku.com
-DOMAIN-SUFFIX, val.api.youku.com
-DOMAIN-SUFFIX, ipm.atm.youku.com
-DOMAIN-SUFFIX, service.danmu.youku.com
-DOMAIN-SUFFIX, dl.g.youku.com
-DOMAIN-SUFFIX, p.l.youku.com
-DOMAIN-SUFFIX, r.l.youku.com
-DOMAIN-SUFFIX, v.l.youku.com
-DOMAIN-SUFFIX, urchin.lstat.youku.com
-DOMAIN-SUFFIX, dev-push.m.youku.com
-DOMAIN-SUFFIX, push.m.youku.com
-DOMAIN-SUFFIX, sdk.m.youku.com
-DOMAIN-SUFFIX, ad.mobile.youku.com
-DOMAIN-SUFFIX, das.mobile.youku.com
-DOMAIN-SUFFIX, gamex.mobile.youku.com
-DOMAIN-SUFFIX, ad.api.mobile.youku.com
-DOMAIN-SUFFIX, sdk.api.gamex.mobile.youku.com
-DOMAIN-SUFFIX, test.ott.youku.com
-DOMAIN-SUFFIX, s.p.youku.com
-DOMAIN-SUFFIX, hudong.pl.youku.com
-DOMAIN-SUFFIX, huodong.pl.youku.com
-DOMAIN-SUFFIX, b.smartvideo.youku.com
-DOMAIN-SUFFIX, huodong.vip.youku.com
-DOMAIN-SUFFIX, c.yes.youku.com
-DOMAIN-SUFFIX, m.yes.youku.com
-DOMAIN-SUFFIX, l.ykimg.com
-DOMAIN-SUFFIX, p-log.ykimg.com
 IP-CIDR, 223.111.27.248/32, no-resolve
 
 # 游民星空
@@ -3064,6 +3012,7 @@ DOMAIN-SUFFIX, traffic.uusee.com
 
 # 游久网
 DOMAIN-SUFFIX, gg.uuu9.com
+
 
 
 # >>>>>>>>>>>>>>> ✅ Z ✅ <<<<<<<<<<<<<<
@@ -3208,6 +3157,7 @@ DOMAIN-SUFFIX, bu02.zybang.com
 
 # 招钱进宝
 # 广告联盟已包含
+
 
 
 # >>>>>>>>>>>>>>> ✅ # ✅ <<<<<<<<<<<<<<
@@ -3827,3 +3777,7 @@ DOMAIN, zgsdk.zhugeio.com
 DOMAIN-SUFFIX, zedo.com
 DOMAIN-SUFFIX, d8.zedo.com
 DOMAIN-SUFFIX, z1.zedo.com
+
+
+
+# >>>>>>>>>>>>>>> ✅ 其他 ✅ <<<<<<<<<<<<<<
