@@ -34,3 +34,7 @@ real-ip = easy-login.10099.com.cn, *-update.xoyocdn.com, id6.me, open.e.189.cn
 
 # 绕过第一个数据包
 # skip-first-packet = server.ovital.com:443
+
+[Rule]
+# 中国农业银行
+DOMAIN, msmp.abchina.com.cn, REJECT

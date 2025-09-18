@@ -21,9 +21,6 @@ DOMAIN, adv.ccb.com, REJECT
 # 内页广告
 URL-REGEX, "^http:\/\/mps\.95508\.com\/mps\/icppweb\/images\/mps\/migration\/mpspics\/", REJECT
 
-# 中国农业银行
-DOMAIN, msmp.abchina.com.cn, REJECT
-
 [Rewrite]
 # 广发银行
 # 开屏广告、内页广告
