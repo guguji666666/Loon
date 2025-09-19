@@ -5,41 +5,41 @@ on:
   workflow_dispatch:
     inputs:
       download_ad_rules:
-        type: boolean
+        type: string
         description: 'Run DownloadAdRulesAndAWAvenueAdsRule.yml'
         required: true
-        default: false
+        default: 'false'
       download_geodata:
-        type: boolean
+        type: string
         description: 'Run DownloadGeoData.yml'
         required: true
-        default: false
+        default: 'false'
       download_global_list:
-        type: boolean
+        type: string
         description: 'Run DownloadGlobal_DomainAndProxy-List.yml'
         required: true
-        default: false
+        default: 'false'
       replace_js_url:
-        type: boolean
+        type: string
         description: 'Run ReplaceJsURL.yml'
         required: true
-        default: false
+        default: 'false'
       replace_lpx_data:
-        type: boolean
+        type: string
         description: 'Run ReplaceLpxData.yml'
         required: true
-        default: false
+        default: 'false'
 
 permissions:
   actions: write
   contents: write
 
 jobs:
-  # 第一步：根据你的勾选来触发其他工作流
+  # 第一步：根据勾选/输入 true 来触发其他工作流
   dispatch-workflows:
     runs-on: ubuntu-latest
     steps:
-      - name:  checkout code
+      - name: Checkout code
         uses: actions/checkout@v4
 
       - name: Trigger selected workflows
@@ -59,7 +59,7 @@ jobs:
             console.log(`Current ref: ${ref}`);
 
             for (const key in workflows) {
-              if (context.payload.inputs[key]) {
+              if (context.payload.inputs[key] === 'true') {
                 const workflow_id = workflows[key];
                 console.log(`Triggering: ${workflow_id}`);
                 try {
@@ -73,10 +73,12 @@ jobs:
                 } catch (error) {
                   console.error(`❌ Error dispatching ${workflow_id}:`, error);
                 }
+              } else {
+                console.log(`Skipping ${workflows[key]} (input=${context.payload.inputs[key]})`);
               }
             }
 
-  # 第二步：清理此工作流的旧记录
+  # 第二步：清理此工作流自身的旧运行记录
   clean_up_workflow:
     runs-on: ubuntu-latest
     steps:
@@ -84,6 +86,6 @@ jobs:
         uses: Mattraks/delete-workflow-runs@main
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          workflow_id: 'Run-Selected-Workflows.yml'   # 指定文件名，避免清理其他 workflow
+          workflow_id: 'Run Selected Workflows'
           retain_days: 0
           keep_minimum_runs: 3
