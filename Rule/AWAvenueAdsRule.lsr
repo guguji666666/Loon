@@ -1,10 +1,10 @@
 # 原始链接：https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/Filters/AWAvenue-Ads-Rule-Surge-RULE-SET.list
-#Title: AWAvenue Ads Rule
-#Total lines: 859
-#Version: 1.6.8-release
-#Update time: 2025-09-08 17:44:58 UTC+8
-#Homepage: https://github.com/TG-Twilight/AWAvenue-Ads-Rule
-#License: https://github.com/TG-Twilight/AWAvenue-Ads-Rule/blob/main/LICENSE
+# Title: AWAvenue Ads Rule
+# Total lines: 859
+# Version: 1.6.8-release
+# Update time: 2025-09-08 17:44:58 UTC+8
+# Homepage: https://github.com/TG-Twilight/AWAvenue-Ads-Rule
+# License: https://github.com/TG-Twilight/AWAvenue-Ads-Rule/blob/main/LICENSE
 DOMAIN, 1500020991.vodplayer.wxamedia.com
 DOMAIN, 1500022744.vodplayer.wxamedia.com
 DOMAIN, 1500026601.vodplayer.wxamedia.com
