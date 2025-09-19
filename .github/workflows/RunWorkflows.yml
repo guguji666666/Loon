@@ -5,37 +5,37 @@ on:
   workflow_dispatch:
     inputs:
       download_ad_rules:
-        type: string
+        type: boolean
         description: 'Run DownloadAdRulesAndAWAvenueAdsRule.yml'
         required: true
-        default: 'false'
+        default: false
       download_geodata:
-        type: string
+        type: boolean
         description: 'Run DownloadGeoData.yml'
         required: true
-        default: 'false'
+        default: false
       download_global_list:
-        type: string
+        type: boolean
         description: 'Run DownloadGlobal_DomainAndProxy-List.yml'
         required: true
-        default: 'false'
+        default: false
       replace_js_url:
-        type: string
+        type: boolean
         description: 'Run ReplaceJsURL.yml'
         required: true
-        default: 'false'
+        default: false
       replace_lpx_data:
-        type: string
+        type: boolean
         description: 'Run ReplaceLpxData.yml'
         required: true
-        default: 'false'
+        default: false
 
 permissions:
   actions: write
   contents: write
 
 jobs:
-  # 第一步：根据勾选/输入 true 来触发其他工作流
+  # 第一步：根据勾选来触发其他工作流
   dispatch-workflows:
     runs-on: ubuntu-latest
     steps:
