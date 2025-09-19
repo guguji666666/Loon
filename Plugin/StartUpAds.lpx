@@ -20,7 +20,7 @@ DOMAIN-SUFFIX, shenshiads.com, REJECT
 [Rewrite]
 # ======= 0~9 ======= #
 # Version
-^https?:\/\/2025.09.19/c394/v2.0.619 reject-200
+^https?:\/\/2025.09.19/c396/v2.0.619 reject-200
 
 # 58 TongCheng
 ^https?:\/\/app\.58\.com\/api\/home\/(advertising|appadv) reject-200
