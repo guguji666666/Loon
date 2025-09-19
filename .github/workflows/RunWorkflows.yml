@@ -6,27 +6,27 @@ on:
     inputs:
       download_ad_rules:
         type: boolean
-        description: '▶️ Run DownloadAdRulesAndAWAvenueAdsRule.yml'
+        description: 'Run DownloadAdRulesAndAWAvenueAdsRule.yml'
         required: true
         default: false
       download_geodata:
         type: boolean
-        description: '▶️ Run DownloadGeoData.yml'
+        description: 'Run DownloadGeoData.yml'
         required: true
         default: false
       download_global_list:
         type: boolean
-        description: '▶️ Run DownloadGlobal_DomainAndProxy-List.yml'
+        description: 'Run DownloadGlobal_DomainAndProxy-List.yml'
         required: true
         default: false
       replace_js_url:
         type: boolean
-        description: '▶️ Run ReplaceJsURL.yml'
+        description: 'Run ReplaceJsURL.yml'
         required: true
         default: false
       replace_lpx_data:
         type: boolean
-        description: '▶️ Run ReplaceLpxData.yml'
+        description: 'Run ReplaceLpxData.yml'
         required: true
         default: false
 
@@ -77,11 +77,25 @@ jobs:
     needs: [dispatch-workflows]
     runs-on: ubuntu-latest
     if: always()
+
+    permissions:
+      actions: write
+      
+    strategy:
+      matrix:
+        workflow_id:
+          - 'run-selected-workflows.yml'
+          - 'DownloadAdRulesAndAWAvenueAdsRule.yml'
+          - 'DownloadGeoData.yml'
+          - 'DownloadGlobal_DomainAndProxy-List.yml'
+          - 'ReplaceJsURL.yml'
+          - 'ReplaceLpxData.yml'
+          
     steps:
-      - name: Delete old workflow runs
+      - name: Delete old runs for ${{ matrix.workflow_id }}
         uses: Mattraks/delete-workflow-runs@v2
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          workflow_id: run-selected-workflows.yml
+          workflow_id: ${{ matrix.workflow_id }}
           retain_days: 0
           keep_minimum_runs: 3
