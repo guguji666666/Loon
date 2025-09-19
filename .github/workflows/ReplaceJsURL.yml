@@ -43,3 +43,9 @@ jobs:
           git add . 
           git commit -m "Replace Script URL with JavaScript URL" || echo "No changes to commit"
           git push
+
+      - name: 清理Workflow
+        uses: Mattraks/delete-workflow-runs@main
+        with:
+          retain_days: 0
+          keep_minimum_runs: 3
