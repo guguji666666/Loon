@@ -1,4 +1,4 @@
-# 2025-09-10 20:00:17
+# 2025-09-19 13:37:00
 # https://raw.githubusercontent.com/fmz200/wool_scripts/main/Loon/rule/rejectAd.list
 
 
@@ -2546,6 +2546,8 @@ DOMAIN-KEYWORD, mpos-pic.helipay.com
 DOMAIN, mistat.xiaomi.com
 
 # 晓晓优选
+DOMAIN-SUFFIX, fancyapi.com
+DOMAIN-SUFFIX, ad.richmob.cn
 DOMAIN-SUFFIX, api-htp.beizi.biz
 DOMAIN-SUFFIX, yfanads.com
 DOMAIN-SUFFIX, 1rtb.net
@@ -2557,7 +2559,7 @@ DOMAIN-SUFFIX, baihemob.com
 DOMAIN-SUFFIX, ad.bwton.com
 DOMAIN-SUFFIX, api.wxcjgg.cn
 DOMAIN-SUFFIX, shunchangzhixing.com
-IP-CIDR, 114.132.165.205/32
+IP-CIDR, 114.132.165.205/32, no-resolve
 
 # 新浪
 DOMAIN-SUFFIX, ad.sina.com.cn
