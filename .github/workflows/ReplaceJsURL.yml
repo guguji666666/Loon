@@ -1,4 +1,4 @@
-name: Replace Script URL in .lpx Files
+name: Replace JavaScript URL in .lpx Files
 
 on:
   workflow_dispatch:

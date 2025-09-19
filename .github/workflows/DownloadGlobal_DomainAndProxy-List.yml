@@ -1,4 +1,4 @@
-name: Convert Global_Domain.list and proxy-list.txt
+name: Download Global_Domain.list & proxy-list.txt
 
 on:
   schedule:

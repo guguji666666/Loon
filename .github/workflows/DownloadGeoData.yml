@@ -1,5 +1,4 @@
-name: Loon GeoData
-
+name: Download Country.mmdb & GeoLite2-ASN.mmdb
 
 on:
   workflow_dispatch:
@@ -9,7 +8,6 @@ on:
 permissions:
   actions: write  
   contents: write  
-
 
 jobs:
   BuildUpdateRepository:
@@ -23,7 +21,6 @@ jobs:
       with:
         repository: sooyaaabo/Loon
         path: Loon
-
 
 ###### Loon
       
@@ -43,7 +40,6 @@ jobs:
             # curl -A "Surge iOS/3450" -L -o "Loon/GeoData/${geodata_name}.mmdb" "$url"
             curl -L -o "Loon/GeoData/${geodata_name}.mmdb" "$url"
         done
-
 
 ###### Commit
     - name: 添加Commits

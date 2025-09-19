@@ -1,4 +1,4 @@
-name: AdRulesAndAWAvenueAdsRule
+name: Download adrules.list & AWAvenue-Ads-Rule-Surge-RULE-SET.list
 
 on:
   schedule:
@@ -50,7 +50,8 @@ jobs:
           
           # 步骤 2: 读取临时文件，处理后，将内容追加 (>>) 到目标文件中
           grep -E '^#Title|^#Total lines:|^#Version:|^#Update time:|^#Homepage:|^#License:|^[^#]' AWAvenue-Ads-Rule.list | \
-          sed 's/,/, /g' >> "$DEST_FILE"
+          sed -E 's/^#(.*)/# \1/; s/,/, /g' >> "$DEST_FILE"
+
 
       # --------------------------------------------------------
 
