@@ -30,6 +30,10 @@ on:
         required: true
         default: false
 
+permissions:
+  actions: write
+  contents: write
+
 jobs:
   # 第一步：根据你的勾选来触发其他工作流
   dispatch-workflows:
@@ -72,30 +76,14 @@ jobs:
               }
             }
 
-  # 第二步：清理此工作流自身的旧记录
-  cleanup-runs:
-    needs: [dispatch-workflows]
+  # 第二步：清理此工作流的旧记录
+  clean_up_workflow:
     runs-on: ubuntu-latest
-    if: always()
 
-    permissions:
-      actions: write
-      
-    strategy:
-      matrix:
-        workflow_id:
-          - 'run-selected-workflows.yml'
-          - 'DownloadAdRulesAndAWAvenueAdsRule.yml'
-          - 'DownloadGeoData.yml'
-          - 'DownloadGlobal_DomainAndProxy-List.yml'
-          - 'ReplaceJsURL.yml'
-          - 'ReplaceLpxData.yml'
-          
     steps:
-      - name: Delete old runs for ${{ matrix.workflow_id }}
-        uses: Mattraks/delete-workflow-runs@v2
+      - name: Clean up workflow runs
+        uses: Mattraks/delete-workflow-runs@main
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          workflow_id: ${{ matrix.workflow_id }}
           retain_days: 0
           keep_minimum_runs: 3
