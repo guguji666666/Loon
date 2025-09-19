@@ -79,11 +79,11 @@ jobs:
   # 第二步：清理此工作流的旧记录
   clean_up_workflow:
     runs-on: ubuntu-latest
-
     steps:
-      - name: Clean up workflow runs
+      - name: Clean up "Run Selected Workflows" runs
         uses: Mattraks/delete-workflow-runs@main
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
+          workflow_id: 'Run-Selected-Workflows.yml'   # 指定文件名，避免清理其他 workflow
           retain_days: 0
           keep_minimum_runs: 3
