@@ -86,7 +86,7 @@ jobs:
             git config --local user.email "action@github.com"
             git config --local user.name "GitHub Action"
             git add . 
-            git commit -m "Update Global.lsr & Proxy.lsr $(TZ='Asia/Shanghai' date +'%Y-%m-%d %H:%M')"
+            git commit -m "Update Global.lsr & Proxy.lsr ($(TZ='Asia/Shanghai' date +'%Y-%m-%d %H:%M'))"
             git push origin HEAD
           else
             echo "No changes to commit."
