@@ -577,13 +577,21 @@
             <td align="center">49</td>
             <td width="150px"><a href="https://www.nsloon.com/openloon/import?plugin=https://raw.githubusercontent.com/sooyaaabo/Loon/main/Plugin/WebPage.lpx">WebPage</a></td>
             <td align="center">50</td>
-            <td width="150px"><a href="https://www.nsloon.com/openloon/import?plugin=https://raw.githubusercontent.com/sooyaaabo/Loon/main/Plugin/WPS.lpx">WPS</a></td>
+            <td width="150px"><a href="https://www.nsloon.com/openloon/import?plugin=https://raw.githubusercontent.com/sooyaaabo/Loon/main/Plugin/WeChat.lpx">微信</a></td>
             <td align="center">51</td>
-            <td width="150px"><a href="https://www.nsloon.com/openloon/import?plugin=https://raw.githubusercontent.com/sooyaaabo/Loon/main/Plugin/Youdao.lpx">有道云笔记</a></td>
+            <td width="150px"><a href="https://www.nsloon.com/openloon/import?plugin=https://raw.githubusercontent.com/sooyaaabo/Loon/main/Plugin/Weibo.lpx">微博</a></td>
         </tr>
         <tr>
             <td align="center">52</td>
+            <td width="150px"><a href="https://www.nsloon.com/openloon/import?plugin=https://raw.githubusercontent.com/sooyaaabo/Loon/main/Plugin/Weibo_intl.lpx">微博轻享版</a></td>
+            <td align="center">53</td>
+            <td width="150px"><a href="https://www.nsloon.com/openloon/import?plugin=https://raw.githubusercontent.com/sooyaaabo/Loon/main/Plugin/Ximalaya.lpx">喜马拉雅</a></td>
+            <td align=center></td>
             <td width="150px"><a href="https://www.nsloon.com/openloon/import?plugin=https://raw.githubusercontent.com/sooyaaabo/Loon/main/Plugin/Youku.lpx">优酷</a></td>
+        </tr>
+        <tr>
+            <td align="center">52</td>
+            <td width="150px"><a href="https://www.nsloon.com/openloon/import?plugin=https://raw.githubusercontent.com/sooyaaabo/Loon/main/Plugin/YouTube.lpx">YouTube</a></td>
             <td align="center">53</td>
             <td width="150px"><a href="https://www.nsloon.com/openloon/import?plugin=https://raw.githubusercontent.com/sooyaaabo/Loon/main/Plugin/ZhiHu.lpx">知乎</a></td>
             <td align=center></td>
@@ -620,53 +628,53 @@
             <td align=center>05</td>
             <td width="150px"><a href="https://www.nsloon.com/openloon/import?plugin=https://raw.githubusercontent.com/sooyaaabo/Loon/main/Plugin/iRingo_Siri.lpx">iRingo:Siri</a></td>
             <td align=center>06</td>
-            <td width="150px"><a href="https://www.nsloon.com/openloon/import?plugin=https://raw.githubusercontent.com/sooyaaabo/Loon/main/Plugin/iRingo_TestFlight.lpx">iRingo:TestFlight</a></td>
+            <td width="150px"><a href="https://www.nsloon.com/openloon/import?plugin=https://raw.githubusercontent.com/sooyaaabo/Loon/main/Plugin/iRingo_WeatherKit.lpx">iRingo:WeatherKit</a></td>
     	</tr>
     	<tr>
             <td align=center>07</td>
-            <td width="150px"><a href="https://www.nsloon.com/openloon/import?plugin=https://raw.githubusercontent.com/sooyaaabo/Loon/main/Plugin/iRingo_WeatherKit.lpx">iRingo:WeatherKit</a></td>
-            <td align=center>08</td>
             <td width="150px"><a href="https://www.nsloon.com/openloon/import?plugin=https://raw.githubusercontent.com/sooyaaabo/Loon/main/Plugin/Listenify.lpx">Listenify</a></td>
-            <td align=center>09</td>
+            <td align=center>08</td>
             <td width="150px"><a href="https://www.nsloon.com/openloon/import?plugin=https://raw.githubusercontent.com/sooyaaabo/Loon/main/Plugin/LoonGallery.lpx">Loon Gallery</a></td>
+            <td align=center>09</td>
+            <td width="150px"><a href="https://www.nsloon.com/openloon/import?plugin=https://raw.githubusercontent.com/sooyaaabo/Loon/main/Plugin/Netisp-x.lpx">网络信息</a></td>
     	</tr>
     	<tr>
             <td align=center>10</td>
-            <td width="150px"><a href="https://www.nsloon.com/openloon/import?plugin=https://raw.githubusercontent.com/sooyaaabo/Loon/main/Plugin/Netisp-x.lpx">网络信息</a></td>
-            <td align=center>11</td>
             <td width="150px"><a href="https://www.nsloon.com/openloon/import?plugin=https://raw.githubusercontent.com/sooyaaabo/Loon/main/Plugin/NodeTools.lpx">节点检测工具</a></td>
-            <td align=center>12</td>
+            <td align=center>11</td>
             <td width="150px"><a href="https://www.nsloon.com/openloon/import?plugin=https://raw.githubusercontent.com/sooyaaabo/Loon/main/Plugin/QQ.lpx">QQ</a></td>
+            <td align=center>12</td>
+            <td width="150px"><a href="https://www.nsloon.com/openloon/import?plugin=https://raw.githubusercontent.com/sooyaaabo/Loon/main/Plugin/Redirect.lpx">重定向</a></td>
     	</tr>
     	<tr>
             <td align=center>13</td>
-            <td width="150px"><a href="https://www.nsloon.com/openloon/import?plugin=https://raw.githubusercontent.com/sooyaaabo/Loon/main/Plugin/Redirect.lpx">重定向</a></td>
-            <td align=center>14</td>
             <td width="150px"><a href="https://www.nsloon.com/openloon/import?plugin=https://raw.githubusercontent.com/sooyaaabo/Loon/main/Plugin/Script-Hub.lpx">Script Hub</a></td>
-             <td align=center>15</td>
+             <td align=center>14</td>
             <td width="150px"><a href="https://www.nsloon.com/openloon/import?plugin=https://raw.githubusercontent.com/sooyaaabo/Loon/main/Plugin/SkipProxy.lpx">跳过代理检测</a></td>
+            <td align=center>15</td>
+            <td width="150px"><a href="https://www.nsloon.com/openloon/import?plugin=https://raw.githubusercontent.com/sooyaaabo/Loon/main/Plugin/StreamingMedia.lpx">流媒体解锁测试</a></td>
     	</tr>
     	<tr>
             <td align=center>16</td>
-            <td width="150px"><a href="https://www.nsloon.com/openloon/import?plugin=https://raw.githubusercontent.com/sooyaaabo/Loon/main/Plugin/StreamingMedia.lpx">流媒体解锁测试</a></td>
-            <td align=center>17</td>
             <td width="150px"><a href="https://www.nsloon.com/openloon/import?plugin=https://raw.githubusercontent.com/sooyaaabo/Loon/main/Plugin/Sub-Store.lpx">Sub-Store</a></td>
-            <td align=center>18</td>
+            <td align=center>17</td>
             <td width="150px"><a href="https://www.nsloon.com/openloon/import?plugin=https://raw.githubusercontent.com/sooyaaabo/Loon/main/Plugin/Swiftgram.lpx">Swiftgram</a></td>
+            <td align=center>18</td>
+            <td width="150px"><a href="https://www.nsloon.com/openloon/import?plugin=https://raw.githubusercontent.com/sooyaaabo/Loon/main/Plugin/Telegram.lpx">Telegram</a></td>
     	</tr>
     	<tr>
             <td align=center>19</td>
-            <td width="150px"><a href="https://www.nsloon.com/openloon/import?plugin=https://raw.githubusercontent.com/sooyaaabo/Loon/main/Plugin/Telegram.lpx">Telegram</a></td>
-            <td align=center>20</td>
             <td width="150px"><a href="https://www.nsloon.com/openloon/import?plugin=https://raw.githubusercontent.com/sooyaaabo/Loon/main/Plugin/TestFlight.lpx">TestFlight</a></td>
-            <td align=center>21</td>
+            <td align=center>20</td>
             <td width="150px"><a href="https://www.nsloon.com/openloon/import?plugin=https://raw.githubusercontent.com/sooyaaabo/Loon/main/Plugin/Turrit.lpx">Turrit</a></td>
+            <td align=center>21</td>
+            <td width="150px"><a href="https://www.nsloon.com/openloon/import?plugin=https://raw.githubusercontent.com/sooyaaabo/Loon/main/Plugin/VVebo.lpx">VVebo</a></td>
     	</tr>
     	<tr>
             <td align=center>22</td>
-            <td width="150px"><a href="https://www.nsloon.com/openloon/import?plugin=https://raw.githubusercontent.com/sooyaaabo/Loon/main/Plugin/VVebo.lpx">VVebo</a></td>
-            <td align=center>23</td>
             <td width="150px"><a href="https://www.nsloon.com/openloon/import?plugin=https://raw.githubusercontent.com/sooyaaabo/Loon/main/Plugin/XPTV.lpx">XPTV</a></td>
+            <td align=center></td>
+            <td width="150px"></td>
             <td align=center></td>
             <td width="150px"></td>
     	</tr>
