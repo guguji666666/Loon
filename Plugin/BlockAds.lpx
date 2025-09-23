@@ -8,11 +8,11 @@
 #!loon_version = 3.3.4(898)
 #!homepage = https://github.com/sooyaaabo/Loon/blob/main/README.md
 #!icon = https://raw.githubusercontent.com/sooyaaabo/Loon/main/Icon/Other-Icon/ShieldReject.png
-#!date = 2025-09-23 18:00
+#!date = 2025-09-23 21:00
 
-# 2025-09-21 20:00:00
+# 2025-09-23 20:00:00
 # https://raw.githubusercontent.com/fmz200/wool_scripts/main/QuantumultX/rewrite/chongxie.txt
-# 2025-09-21 20:00:00
+# 2025-09-23 20:00:00
 # https://raw.githubusercontent.com/fmz200/wool_scripts/main/Loon/plugin/blockAds.plugin
 
 [Argument]
@@ -533,9 +533,6 @@ IP-CIDR, 115.236.121.195/32, REJECT, no-resolve
 ^https:\/\/gw\.chuangkit\.com\/team\/app\/common\/ad\/ reject-dict
 
 # >>>>>>>>>>>>>>> ✅ D ✅ <<<<<<<<<<<<<<< #
-# 大疆商城 -  se-api.djiits.com
-^https:\/\/se-api\.djiits\.com\/api\/components\/launch_ad\.json\?abbrv_url=1&country=cn&language=zh-CN reject-dict
-
 # DLabel云标签 - dudian-oss.oss-cn-shenzhen.aliyuncs.com, imagepc.ctaiot.com
 ^https:\/\/imagepc\.ctaiot\.com\/dlabel\/0\/startpage reject
 ^https:\/\/dudian-oss\.oss-cn-shenzhen\.aliyuncs\.com\/dlabel\/1\/startpage reject
@@ -572,6 +569,9 @@ IP-CIDR, 115.236.121.195/32, REJECT, no-resolve
 ^https?:\/\/p\d\.meituan\.net\/nrpresourcevenus\/\w+\.gif reject-img
 ^https?:\/\/p\d\.meituan\.net\/travelcube\/(?!c129a661)\w+\.gif reject-img
 ^https?:\/\/ddplus\.meituan\.net\/v\d\/mss_\w+\/(?>ehc|titansx|ddblue|edfu)\/ reject
+
+# 大疆商城 -  se-api.djiits.com
+^https:\/\/se-api\.djiits\.com\/api\/components\/launch_ad\.json\?abbrv_url=1&country=cn&language=zh-CN reject-dict
 
 # 动卡空间 - ump.sz.creditcard.ecitic.com, m.creditcard.ecitic.com
 ^https?:\/\/ump\.sz\.creditcard\.ecitic\.com\/citiccard\/cm-ump\/ump-gateway\/ump-net-app\/ump-net-app\/adv reject-dict
