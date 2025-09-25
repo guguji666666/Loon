@@ -281,7 +281,7 @@
 ### **Kitty Network**
 
 - **机场介绍**<br>
-1. 采用 Hysteria2 高速协议，支持 UDP<br>
+1. 采用 Hysteria2 协议，支持 UDP<br>
 2. 提供港、日、韩、新、美常用地区及英、德、荷冷门地区节点<br>
 4. 提供流媒体解锁，包括但不限于 Disney+、Netflix 等<br>
 5. 提供 AI 解锁，包括但不限于 ChatGPT 等<br>
