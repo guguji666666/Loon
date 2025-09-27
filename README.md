@@ -184,7 +184,8 @@
 </div>
 
 - **购买方式**<br>
-点击 [Aladdin官网](https://www.aladingnet.xyz/#/register?code=Jh3GWpym) 购买，半年付9折优惠码`SemiAnnually`，年付8折优惠码`Annually`
+点击 [Aladdin官网](https://www.aladingnet.xyz/#/register?code=Jh3GWpym) 购买，半年付9折优惠码`SemiAnnually`，年付8折优惠码`Annually`<br>
+双节长假快乐（9/27~10/15）：入门套餐 88折优惠码`code88`，其他套餐 78折优惠码`code78`<br>
 
 - **联系方式**<br>
 官方频道：[@AladdinNotice](https://t.me/AladdinNotice)<br>
