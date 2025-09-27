@@ -185,7 +185,7 @@
 
 - **购买方式**<br>
 点击 [Aladdin官网](https://www.aladingnet.xyz/#/register?code=Jh3GWpym) 购买，半年付9折优惠码`SemiAnnually`，年付8折优惠码`Annually`<br>
-双节长假快乐（9/27~10/15）：入门套餐 88折优惠码`code88`，其他套餐 78折优惠码`code78`<br>
+双节长假快乐（9.27 ~ 10.15）：入门套餐 88折优惠码`code88`，其他套餐 78折优惠码`code78`<br>
 
 - **联系方式**<br>
 官方频道：[@AladdinNotice](https://t.me/AladdinNotice)<br>
@@ -279,14 +279,15 @@
 官方频道：[@CloudFisher](https://t.me/CloudFisher)<br>
 官方群组：[@CloudFisherGroup](https://t.me/CloudFisherGroup)<br>
 
-### **Kitty Network**
+### **AshNet**
 
 - **机场介绍**<br>
-1. 采用 Hysteria2 协议直连线路，支持 UDP<br>
-2. 提供港、日、韩、新、美常用地区及英、德、荷冷门地区节点<br>
-4. 提供流媒体解锁，包括但不限于 Disney+、Netflix 等<br>
+1. 采用 Trojan 协议，提供 IEPL 线路、隧道中转线路（Mini 套餐只含隧道中转线路）<br>
+2. 提供台湾、香港、日本、韩国、新加坡、美国、英国等地区节点<br>
+4. 提供流媒体解锁，包括但不限于 Netflix、Disney+、HBO、Bahamut 等<br>
 5. 提供 AI 解锁，包括但不限于 ChatGPT 等<br>
-6. 不限速度，不限设备，可作为备用机场使用<br>
+6. 提供 Emby 媒体服务（不包括 Mini 套餐）
+7. 最多同时在线 3 台设备，禁止共享他人，禁止 BT 下载<br>
 
 - **套餐介绍**<br>
 <div style="overflow-x: auto;">
@@ -296,42 +297,59 @@
             <th width="100px" align="center">月流量</th>
             <th width="100px" align="center">月付</th>
             <th width="100px" align="center">季付</th>
+            <th width="100px" align="center">半年付</th>
             <th width="100px" align="center">年付</th>
-            <th width="100px" align="center">两年付</th>
         </tr>
         <tr>
-            <td align="center">AIR</td>
-            <td align="center">128G</td>
+            <td align="center">Mini</td>
+            <td align="center">60G</td>
             <td align="center">×</td>
-            <td align="center">×</td>
-            <td align="center">¥24</td>
-            <td align="center">¥36</td>
+            <td align="center">¥18</td>
+            <td align="center">¥34</td>
+            <td align="center">¥66</td>
         </tr>
         <tr>
-            <td align="center">STANDARD</td>
-            <td align="center">512G</td>
-            <td align="center">×</td>
-            <td align="center">¥15</td>
-            <td align="center">¥50</td>
-            <td align="center">×</td>
+            <td align="center">Small</td>
+            <td align="center">101G</td>
+            <td align="center">¥10</td>
+            <td align="center">¥30</td>
+            <td align="center">¥58</td>
+            <td align="center">¥112</td>
         </tr>
         <tr>
-            <td align="center">PREMIUM</td>
-            <td align="center">1024G</td>
-            <td align="center">¥9</td>
-            <td align="center">×</td>
+            <td align="center">Medium</td>
+            <td align="center">200G</td>
+            <td align="center">¥20</td>
+            <td align="center">¥60</td>
+            <td align="center">¥118</td>
+            <td align="center">¥230</td>
+        </tr>
+        <tr>
+            <td align="center">Large</td>
+            <td align="center">300G</td>
+            <td align="center">¥30</td>
             <td align="center">¥90</td>
-            <td align="center">×</td>
+            <td align="center">¥178</td>
+            <td align="center">¥350</td>
+        </tr>
+        <tr>
+            <td align="center">Plus</td>
+            <td align="center">500G</td>
+            <td align="center">¥48</td>
+            <td align="center">¥144</td>
+            <td align="center">¥288</td>
+            <td align="center">¥566</td>
         </tr>
     </table>
 </div>
 
 - **购买方式**<br>
-点击 [Kitty官网](https://kitty.su/#/register?code=Qf2vTZyy) 购买，无优惠码
+点击 [AshNet官网](https://portal.ash.do/#/register?code=8MbCWLLI) 购买，新用户85折优惠码`Ash`<br>
+双节同庆（9.28 ~ 10.08）：8折优惠码`双节快乐`<br>
 
 - **联系方式**<br>
-官方频道：[@kittythenight](https://t.me/kittythenight)<br>
-官方群组：[@kittymiz](https://t.me/kittymiz)<br>
+官方频道：[@Ash_NOC](https://t.me/Ash_NOC)<br>
+官方群组：[@Ash_Net](https://t.me/Ash_Net)<br>
 
 ### **Alphaio**
 
@@ -397,7 +415,7 @@
 </div>
 
 - **购买方式**<br>
-点击 [Alphaio官网](https://user.alphalo.net/register?code=xGyimy7I) 购买，限时优惠码：半年付9折`Alphaio-OPEN90`，年付83折`Alphaio-OPEN83`
+点击 [Alphaio官网](https://user.alphalo.net/register?code=xGyimy7I) 购买，半年付9折优惠码`Alphaio-OPEN90`，年付83折优惠码`Alphaio-OPEN83`
 
 - **联系方式**<br>
 官方频道：[@Alphaio_Channel](https://t.me/Alphaio_Channel)<br>
