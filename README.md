@@ -344,82 +344,12 @@
 </div>
 
 - **购买方式**<br>
-点击 [AshNet官网](https://portal.ash.do/#/register?code=8MbCWLLI) 购买，新用户85折优惠码`Ash`<br>
+点击 [AshNet官网](https://portal.ash.do/#/register?code=igbGTl5n) 购买，新用户85折优惠码`Ash`<br>
 双节同庆（9.28 ~ 10.08）：8折优惠码`双节快乐`<br>
 
 - **联系方式**<br>
 官方频道：[@Ash_NOC](https://t.me/Ash_NOC)<br>
 官方群组：[@Ash_Net](https://t.me/Ash_Net)<br>
-
-### **Alphaio**
-
-- **机场介绍**<br>
-1. 采用 Shadowsocks 协议，BGP 专线加持超凡体验。<br>
-2. 提供 20+ 包含港、台、日、新、美等常用地区节点。<br>
-3. 提供高度流媒体解锁，包括但不限于 Disney+、Netflix 等。<br>
-4. 提供 AI 解锁，包括但不限于 ChatGPT、Gemini 等。<br>
-5. 若官网中无新享套餐即为售罄，后续补货将会在群组通过置顶通知提前告知。<br>
-
-- **套餐介绍**<br>
-<div style="overflow-x: auto;">
-    <table style="white-space: nowrap;">
-        <tr>
-            <th width="100px" align="center">周期套餐</th>
-            <th width="100px" align="center">月流量</th>
-            <th width="100px" align="center">月付</th>
-            <th width="100px" align="center">季付</th>
-            <th width="100px" align="center">半年付</th>
-            <th width="100px" align="center">年付</th>
-        </tr>
-        <tr>
-            <td align="center">新享套餐</td>
-            <td align="center">200G</td>
-            <td align="center">×</td>
-            <td align="center">×</td>
-            <td align="center">×</td>
-            <td align="center">¥30</td>
-        </tr>
-        <tr>
-            <td align="center">妄享套餐</td>
-            <td align="center">200G</td>
-            <td align="center">×</td>
-            <td align="center">×</td>
-            <td align="center">×</td>
-            <td align="center">¥101</td>
-        </tr>
-        <tr>
-            <td align="center">随享套餐</td>
-            <td align="center">100G</td>
-            <td align="center">¥8</td>
-            <td align="center">¥22.8</td>
-            <td align="center">¥43.2</td>
-            <td align="center">¥76.8</td>
-        </tr>
-        <tr>
-            <td align="center">优享套餐</td>
-            <td align="center">200G</td>
-            <td align="center">¥14</td>
-            <td align="center">¥39.9</td>
-            <td align="center">¥75.6</td>
-            <td align="center">¥134.4</td>
-        </tr>
-        <tr>
-            <td align="center">超享套餐</td>
-            <td align="center">500G</td>
-            <td align="center">¥30</td>
-            <td align="center">¥85.5</td>
-            <td align="center">¥162</td>
-            <td align="center">¥288</td>
-        </tr>
-    </table>
-</div>
-
-- **购买方式**<br>
-点击 [Alphaio官网](https://user.alphalo.net/register?code=xGyimy7I) 购买，半年付9折优惠码`Alphaio-OPEN90`，年付83折优惠码`Alphaio-OPEN83`
-
-- **联系方式**<br>
-官方频道：[@Alphaio_Channel](https://t.me/Alphaio_Channel)<br>
-官方群组：[@AlphaioNet](https://t.me/AlphaioNet)<br>
 
 
 ## 插件列表
