@@ -2,14 +2,14 @@
 # NAME: Global
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2025-09-26 02:08:21
+# UPDATED: 2025-09-30 02:08:18
 # DOMAIN: 110
 # DOMAIN-KEYWORD: 36
-# DOMAIN-SUFFIX: 31848
+# DOMAIN-SUFFIX: 31847
 # IP-CIDR: 112
 # IP-CIDR6: 4
 # USER-AGENT: 46
-# TOTAL: 32156
+# TOTAL: 32155
 DOMAIN-SUFFIX,000webhost.com
 DOMAIN-SUFFIX,01.org
 DOMAIN-SUFFIX,02weqj32.com
@@ -17294,7 +17294,6 @@ DOMAIN-SUFFIX,m5universities.ac.uk
 DOMAIN-SUFFIX,m8008.com
 DOMAIN-SUFFIX,ma.hao123.com
 DOMAIN-SUFFIX,ma1lib.org
-DOMAIN-SUFFIX,maa.plus
 DOMAIN-SUFFIX,mabbank.com
 DOMAIN-SUFFIX,mablethorpe.ac.uk
 DOMAIN-SUFFIX,mac-migs.ac.uk
