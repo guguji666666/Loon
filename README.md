@@ -92,7 +92,7 @@
 2. 多达 50+ 节点，包含 ``港日美台新`` 热门节点（时段性倍率）及部分冷门地区节点。<br>
 3. 支持多种流媒体服务访问解锁，包括但不限于 Disney+、YouTube、Netflix、ChatGPT 等。<br>
 4. 提供节点 ``免登流媒体`` 共享账号观看 Netflix、PornHub。<br>
-5. 提供 Emby 服务，无 SLA 保证，如果是为了 Emby 而购买，推荐月付。<br>
+5. 提供 1111 Emby 媒体服务，无 SLA 保证。（入门套餐无此项服务，轻量套餐无直连线路）<br>
 6. 所有套餐每日均可在群组发送指令 ``/sign@AladdinForUser_bot`` 签到获取随机流量。<br>
 7. 独家首发流量转结系统，每月 1 号流量重置（仅支持周期套餐），上月剩余流量转结并延长有效期至下个月。<br>
 
@@ -107,7 +107,6 @@
             <th width="100px" align="center">半年付</th>
             <th width="100px" align="center">年付</th>
             <th width="100px" align="center">日签到</th>
-            <th width="100px" align="center">Emby服务</th>
         </tr>
         <tr>
             <td align="center">入门套餐</td>
@@ -117,7 +116,6 @@
             <td align="center">¥48</td>
             <td align="center">¥96</td>
             <td align="center">1~500M</td>
-            <td align="center">无</td>
         </tr>
         <tr>
             <td align="center">轻量套餐</td>
@@ -127,7 +125,6 @@
             <td align="center">¥90</td>
             <td align="center">¥180</td>
             <td align="center">1~1000M</td>
-            <td align="center">1111</td>
         </tr>
         <tr>
             <td align="center">基础套餐</td>
@@ -137,7 +134,6 @@
             <td align="center">¥180</td>
             <td align="center">¥360</td>
             <td align="center">1~2000M</td>
-            <td align="center">1111</td>
         </tr>
         <tr>
             <td align="center">高级套餐</td>
@@ -147,7 +143,6 @@
             <td align="center">¥300</td>
             <td align="center">¥600</td>
             <td align="center">1~3000M</td>
-            <td align="center">1111</td>
         </tr>
         <tr>
             <td align="center">豪华套餐</td>
@@ -157,7 +152,6 @@
             <td align="center">¥900</td>
             <td align="center">¥1200</td>
             <td align="center">1~3888M</td>
-            <td align="center">1111</td>
         </tr>
     </table>
 </div>
@@ -171,7 +165,6 @@
             <th width="100px" align="center">有效期</th>
             <th width="100px" align="center">日签到</th>
             <th width="100px" align="center">流量重置</th>
-            <th width="100px" align="center">Emby服务</th>
         </tr>
         <tr>
             <td align="center">888流量套餐</td>
@@ -180,7 +173,6 @@
             <td align="center">888天</td>
             <td align="center">1~1000M</td>
             <td align="center">无重置</td>
-            <td align="center">1111</td>
         </tr>
     </table>
 </div>
@@ -284,12 +276,12 @@
 ### **AshNet**
 
 - **机场介绍**<br>
-1. 采用 Trojan 协议，提供 IEPL 线路、隧道中转线路（Mini 套餐只含隧道中转线路）<br>
-2. 提供台湾、香港、日本、韩国、新加坡、美国、英国等地区节点<br>
-4. 提供流媒体解锁，包括但不限于 Netflix、Disney+、HBO、Bahamut 等<br>
-5. 提供 AI 解锁，包括但不限于 ChatGPT 等<br>
-6. 提供 Emby 媒体服务（不包括 Mini 套餐）
-7. 最多同时在线 3 台设备，禁止共享他人，禁止 BT 下载<br>
+1. 采用 Trojan 协议，提供 IEPL 线路、隧道中转线路。（Mini 套餐只含隧道中转线路）<br>
+2. 提供台湾、香港、日本、韩国、新加坡、美国、英国等地区节点。<br>
+4. 提供流媒体解锁，包括但不限于 Netflix、Disney+、HBO、Bahamut 等。<br>
+5. 提供 AI 解锁，包括但不限于 ChatGPT、Gemini 等。<br>
+6. 提供 JMS 和 Ask Emby 媒体服务，禁止中、日、美IP访问。（Mini 套餐无此项服务）<br>
+7. 最多同时在线 3 台设备，禁止共享他人，禁止 BT 下载。<br>
 
 - **套餐介绍**<br>
 <div style="overflow-x: auto;">
