@@ -97,7 +97,7 @@ IP-CIDR, 101.35.212.35/32, REJECT
 
 # 精简底部菜单、顶部分类
 # ^https:\/\/api\.pinduoduo\.com\/api\/alexa\/homepage\/hub\? response-body-json-jq '.result.bottom_tabs? |= map(select(.link | IN("index.html", "chat_list.html", "personal.html"))) | .result.buffer_bottom_tabs? |= map(select(.link | IN("index.html", "chat_list.html", "personal.html")))'
-^https:\/\/api\.pinduoduo\.com\/api\/alexa\/homepage\/hub\? response-body-json-jq '.result.bottom_tabs? |= map(select(.title | IN("多多视频","大促会场") | not)) | .result.buffer_bottom_tabs? |= map(select(.title | IN("多多视频","大促会场") | not)) | .result.all_top_opts? |= map(select(.tab_id == 1)) | del(.result.search_bar_hot_query) | .result.module_order? |= map(select(.module_name | IN("billion_subsidy_entrance","billion_subsidy_entrance_dy","billion_subsidy_entrance_lite","irregular_banner_dy","irregular_banner","ad_module","icon_set","recommend_fresh_info","timeline") | not))'
+^https:\/\/api\.pinduoduo\.com\/api\/alexa\/homepage\/hub\? response-body-json-jq '.result.bottom_tabs? |= map(select(.title | IN("多多视频","大促会场") | not)) | .result.buffer_bottom_tabs? |= map(select(.title | IN("多多视频","大促会场") | not)) | del(.result.search_bar_hot_query) | .result.module_order? |= map(select(.module_name | IN("irregular_banner_dy","irregular_banner","ad_module","icon_set","timeline") | not))'
 
 [Script]
 # http-response ^https:\/\/api\.pinduoduo\.com\/api\/alexa\/homepage\/hub\? script-path = https://kelee.one/Resource/JavaScript/PinDuoDuo/PinDuoDuo_remove_ads.js, requires-body = true, tag = [拼多多]精简首页
