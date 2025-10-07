@@ -203,6 +203,14 @@
             "url": "https://raw.githubusercontent.com/sooyaaabo/Loon/main/Icon/App-Icon/TestFlight-02.png"
         },
         {
+            "name": "TestFlight",
+            "url": "https://raw.githubusercontent.com/sooyaaabo/Loon/main/Icon/App-Icon/TestFlight-03.png"
+        },
+        {
+            "name": "TestFlight",
+            "url": "https://raw.githubusercontent.com/sooyaaabo/Loon/main/Icon/App-Icon/TestFlight-04.png"
+        },
+        {
             "name": "AppleWeather",
             "url": "https://raw.githubusercontent.com/sooyaaabo/Loon/main/Icon/App-Icon/AppleWeather.png"
         },
@@ -945,6 +953,10 @@
         {
             "name": "X Twitter",
             "url": "https://raw.githubusercontent.com/sooyaaabo/Loon/main/Icon/App-Icon/Twitter-02.png"
+        },
+        {
+            "name": "Reddit",
+            "url": "https://raw.githubusercontent.com/sooyaaabo/Loon/main/Icon/App-Icon/Reddit.png"
         },
         {
             "name": "Telegram",
