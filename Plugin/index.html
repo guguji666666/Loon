@@ -895,7 +895,7 @@
                     const card = document.createElement('a');
                     card.className = 'card';
                     // 跳转到 Loon 安装链接
-                    card.href = `https://www.nsloon.com/openloon/import?plugin=${p.url}`;
+                    card.href = `loon://import?plugin=${p.url}`;
 
                     // 生成标签 HTML
                     const tagsHtml = p.tags.map(tag => `<span class="tag-item">${tag}</span>`).join(' ');
