@@ -68,4 +68,4 @@ http-response ^https?:\/\/vip1\.kuwo\.cn\/vip\/v\d\/user\/vip\?op=ui script-path
 # http-response ^http:\/\/wapi\.kuwo\.cn\/openapi\/v\d\/tingshu\/index\/radio script-path = https://kelee.one/Resource/JavaScript/Kuwo/Kuwo_remove_ads.js, requires-body = true, tag = [酷我音乐]移除听书页面广告
 
 [MitM]
-hostname = audiobookpay.kuwo.cn, mgxhtj.kuwo.cn, nmobi.kuwo.cn, searchrecterm.kuwo.cn, musicpay.kuwo.cn, appi.kuwo.cn, mc.tencentmusic.com, vip*.kuwo.cn, tingshu.kuwo.cn, *.kuwo.cn
+hostname = anymatch.kuwo.cn, appi.kuwo.cn, audiobookpay.kuwo.cn, mc.tencentmusic.com, mgxhtj.kuwo.cn, mobilead.kuwo.cn, mobilebasedata.kuwo.cn, musicpay.kuwo.cn, nmobi.kuwo.cn, rich.kuwo.cn, searchrecterm.kuwo.cn, tingshu.kuwo.cn, vip*.kuwo.cn, *.kuwo.cn
