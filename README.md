@@ -512,13 +512,13 @@
             <td width="150px"><a href="https://www.nsloon.com/openloon/import?plugin=https://raw.githubusercontent.com/sooyaaabo/Loon/main/Plugin/Weibo_intl.lpx">微博轻享版</a></td>
             <td align="center">53</td>
             <td width="150px"><a href="https://www.nsloon.com/openloon/import?plugin=https://raw.githubusercontent.com/sooyaaabo/Loon/main/Plugin/Ximalaya.lpx">喜马拉雅</a></td>
-            <td align=center></td>
+            <td align=center>54</td>
             <td width="150px"><a href="https://www.nsloon.com/openloon/import?plugin=https://raw.githubusercontent.com/sooyaaabo/Loon/main/Plugin/Youku.lpx">优酷</a></td>
         </tr>
         <tr>
-            <td align="center">52</td>
+            <td align="center">55</td>
             <td width="150px"><a href="https://www.nsloon.com/openloon/import?plugin=https://raw.githubusercontent.com/sooyaaabo/Loon/main/Plugin/YouTube.lpx">YouTube</a></td>
-            <td align="center">53</td>
+            <td align="center">56</td>
             <td width="150px"><a href="https://www.nsloon.com/openloon/import?plugin=https://raw.githubusercontent.com/sooyaaabo/Loon/main/Plugin/ZhiHu.lpx">知乎</a></td>
             <td align=center></td>
             <td width="150px"></td>
