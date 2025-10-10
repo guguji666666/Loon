@@ -1,8 +1,8 @@
 # 原始链接：https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/Filters/AWAvenue-Ads-Rule-Surge-RULE-SET.list
 # Title: AWAvenue Ads Rule
-# Total lines: 861
+# Total lines: 860
 # Version: 1.6.8-release
-# Update time: 2025-10-09 10:38:06 UTC+8
+# Update time: 2025-10-10 16:48:56 UTC+8
 # Homepage: https://github.com/TG-Twilight/AWAvenue-Ads-Rule
 # License: https://github.com/TG-Twilight/AWAvenue-Ads-Rule/blob/main/LICENSE
 DOMAIN, 1500020991.vodplayer.wxamedia.com
@@ -516,7 +516,6 @@ DOMAIN, mini-prog-drm.vodplayvideo.net
 DOMAIN, mission-pub.smart-tv.cn
 DOMAIN, miui-fxcse.avlyun.com
 DOMAIN, mlog.bigda.com
-DOMAIN, mmgame.qpic.cn
 DOMAIN, mnqlog.ldmnq.com
 DOMAIN, moatads.com
 DOMAIN, mobads-logs.baidu.com
