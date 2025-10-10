@@ -663,8 +663,12 @@
             "url": "https://raw.githubusercontent.com/sooyaaabo/Loon/main/Icon/App-Icon/MediaStorm.png"
         },
         {
-            "name": "Alist",
-            "url": "https://raw.githubusercontent.com/sooyaaabo/Loon/main/Icon/App-Icon/Alist.png"
+            "name": "AList",
+            "url": "https://raw.githubusercontent.com/sooyaaabo/Loon/main/Icon/App-Icon/AList.png"
+        },
+        {
+            "name": "OpenList",
+            "url": "https://raw.githubusercontent.com/sooyaaabo/Loon/main/Icon/App-Icon/OpenList.png"
         },
         {
             "name": "Emby",
