@@ -1724,7 +1724,7 @@ https?:\/\/api\.taptapdada\.com\/startup\-logo\/v1\/combo\? reject-dict
 ^https?:\/\/m\.pvp\.xoyo\.com\/conf\/server-mapping reject-dict
 
 # TruthSocial - truthsocial.com
-^https?:\/\/truthsocial\.com\/api\/v5\/truth\/ads reject
+^https?:\/\/truthsocial\.com\/api\/v\d\/truth\/ads reject
 
 # 台铃智能 - www.tailgdd.com
 ^https:\/\/www\.tailgdd\.com\/v8\/smart\/app\/config\/get$ response-body-json-replace data {}
