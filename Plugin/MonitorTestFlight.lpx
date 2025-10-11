@@ -9,7 +9,6 @@
 #!homepage = https://github.com/sooyaaabo/Loon/blob/main/README.md
 #!icon = https://raw.githubusercontent.com/sooyaaabo/Loon/main/Icon/App-Icon/TestFlight-04.png
 #!input = TestFlight_APP_ID
-#!input = TestFlight_Header
 #!date = 2025-10-11 16:00
 
 [Argument]
