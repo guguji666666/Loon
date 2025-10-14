@@ -2,14 +2,14 @@
 # NAME: Global
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2025-10-12 02:07:54
+# UPDATED: 2025-10-14 02:08:04
 # DOMAIN: 110
 # DOMAIN-KEYWORD: 36
-# DOMAIN-SUFFIX: 31851
+# DOMAIN-SUFFIX: 31853
 # IP-CIDR: 112
 # IP-CIDR6: 4
 # USER-AGENT: 46
-# TOTAL: 32159
+# TOTAL: 32161
 DOMAIN-SUFFIX,000webhost.com
 DOMAIN-SUFFIX,01.org
 DOMAIN-SUFFIX,02weqj32.com
@@ -11139,6 +11139,8 @@ DOMAIN-SUFFIX,freegao.com
 DOMAIN-SUFFIX,freegaypornfinder.com
 DOMAIN-SUFFIX,freegaypornhdtube.com
 DOMAIN-SUFFIX,freegaysexgames.com
+DOMAIN-SUFFIX,freegpt.es
+DOMAIN-SUFFIX,freegpt.tech
 DOMAIN-SUFFIX,freehdinterracialporn.in
 DOMAIN-SUFFIX,freehdvideos.xxx
 DOMAIN-SUFFIX,freehentaipic.com
